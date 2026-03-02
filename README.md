@@ -28,3 +28,26 @@ source .venv/bin/activate   # Mac/Linux
 # or: source .venv/Scripts/activate  (Windows Git Bash)
 pip install -r requirements-prework.txt
 ```
+
+## How to run
+
+Follow these steps to set up and run the project locally:
+
+1. **Set up the environment**
+   - Create and activate a virtual environment:
+     ```
+     python -m venv venv
+     source .venv/bin/activate   # On macOS/Linux
+     .venv\Scripts\activate      # On Windows
+     ```
+   - Install dependencies:
+     ```
+     pip install -r requirements.txt
+     ```
+
+2. **Run the project**
+   From the root directory of the project, run
+
+3. **Confirm success**
+- The application runs without errors.
+- Expected output appears in the terminal.
