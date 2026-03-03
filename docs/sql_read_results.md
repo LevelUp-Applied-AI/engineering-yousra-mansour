@@ -29,6 +29,14 @@
 ('Maya Qassem', 'Palestine', 82.0)
 ('Rania Odeh', 'Jordan', 80.0)
 
+## Query 3: Average Score by Cohort
+Query 3' heading not found in docs/sql_read_results.md.
+=== Query 3: Average by cohort ===
+('2024A', 5, 81.8)
+('2024B', 5, 79.5)
+('2025A', 5, 75.5)
+
+
 ## Query 4: Students + Projects (non-missing)
 === Query 4: Students + projects (non-missing) ===
 ('Aisha Al-Rashidi', '2024A', 'Laptop Verify', 1, 'submitted', 95.0)
