@@ -67,7 +67,7 @@ The 2024B cohort had the highest average pre-work score. This suggests that this
 
 **Question 2:** Looking at Query 2 results: how many students scored 80 or above? Does anything about their countries surprise you?
 
-There are 8 students who scored 80 or above. and all of them are from Arab countries.
+There are 8 students who scored 80 or above, and all of them are from Arab countries (Jordan, Palestine, and Egypt). This shows strong regional performance but no surprising country variation since all students are from the same region.
 
 **Question 3:** From the JOIN results (Query 4): choose one student and describe their project submission pattern. What does the data tell you about this learner?
 
