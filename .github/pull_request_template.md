@@ -1,37 +1,65 @@
-## What changed
+# Engineering Progress Update
 
-Provide a clear and concise summary of the changes introduced in this PR.  
-Describe the main functionality added, modified, or removed.  
-If relevant, mention key files or components affected.
+## Summary of Changes
+
+This PR includes updates related to my AI Engineering practice work.
+
+Changes may include:
+- Added or modified Python scripts inside `/scripts`
+- Added or updated documentation inside `/docs`
+- Implemented or fixed pytest test cases
+- Improved existing functions based on test failures
+- Refactored code for clarity and better structure
+
+Key files affected:
+- scripts/
+- docs/
+- test_*.py files
 
 ---
 
-## Why
+## Purpose of This Change
 
-Explain the reason for these changes.  
-What problem does this solve?  
-Is this fixing a bug, improving performance, refactoring code, or adding a new feature?  
-Include context so reviewers understand the motivation behind the change.
+This update is part of my structured engineering training process.
+
+The goal of this PR is to:
+- Practice writing clean and testable Python code
+- Improve debugging skills by analyzing pytest failures
+- Apply Git workflow correctly (branching, committing, pull requests)
+- Maintain organized documentation for each learning day
+
+If a bug was fixed, it was identified through pytest failure output and resolved accordingly.
 
 ---
 
-## How to test
+## How to Validate
 
-List clear steps a reviewer can follow to verify the changes:
+To review and test these changes:
 
-1. Set up the environment and install dependencies.
-2. Run the application or tests.
-3. Perform specific actions related to this change.
-4. Confirm the expected behavior or output.
+1. Create and activate virtual environment:
+   ```
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
 
-Include example commands if helpful.
+2. Install dependencies (if required)
+
+3. Run tests:
+   ```
+   pytest
+   ```
+
+4. Confirm:
+   - All tests pass
+   - No unexpected failures
+   - Code follows clean structure
 
 ---
 
 ## Checklist
 
-- [ ] I have tested the changes locally
-- [ ] I have added or updated tests where necessary
-- [ ] I have updated documentation if needed
-- [ ] There are no debug statements or temporary code left
-- [ ] This PR focuses on a single logical change
+- [ ] Code runs without errors
+- [ ] Pytest passes successfully
+- [ ] No debug prints remain
+- [ ] Files are properly structured
+- [ ] Changes focus on a single logical improvement
